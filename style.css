@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Lemon&family=Lobster&family=Oleo+Script:wght@400;700&display=swap");
+body {
+  font-family: "Figtree", sans-serif;
+  background: #f3b664;
+  color: #372f29;
+}
+
+h1 {
+  color: #372f29;
+  font-weight: 600;
+}
+
+p {
+  color: #000;
+}
+
+.box {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.btn-info {
+  background-color: #372f29 !important;
+  border: #372f29 !important;
+  color: rgb(214, 214, 201);
+}
+::selection {
+  color: #53392b;
+  background: #f1eb90;
+}
+.nav-item {
+  margin-left: 27px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  position: relative;
+}
+.mainColor {
+  color: #372f29;
+}
+.item h1 {
+  padding-top: 10px;
+  font-size: 25px;
+}
+.item {
+  border: #372f29 0px solid;
+  border-radius: 10px;
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  height: 75vh;
+}
+.item .image {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.item .image img {
+  border-radius: 10px;
+  width: 100%;
+  transition-duration: 0.6;
+  transform: scale(1);
+  display: block;
+  transition: transform 330ms ease-in-out;
+}
+
+.item .image:hover img {
+  transform: scale(1.2);
+}
+
+section {
+  background-color: transparent !important;
+}
+
+option {
+  background-color: #ec8f5e;
+  color: #372f29;
+}
+
+#home {
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  height: 90vh;
+}
+#first {
+  background-color: #ec8f5e;
+  background-color: #e5e5f7;
+  /* opacity: 0.8; */
+  background-image: radial-gradient(#372f29 0.5px, #f3b664 0.5px);
+  background-size: 10px 10px;
+}
+/* .home-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10%;
+} */
+.home-text {
+  width: 35%;
+  color: rgb(54, 54, 54);
+}
+.header {
+  color: #372f29;
+  font-family: "Lobster", sans-serif;
+}
+#home h1 {
+  font-size: 4.0625rem;
+  color: #372f29;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+#home img {
+  /* width: 530px; */
+  /* display: block; */
+  filter: drop-shadow(4px 4px 9px #000a);
+}
+
+#home img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+#home .home-button {
+  padding: none;
+  margin: 0;
+}
+
+#home .button1 {
+  border-radius: 0px 25px 25px 25px;
+  border-color: transparent;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  padding: 9px 20px;
+  text-align: center;
+  transition-duration: 0.4s;
+  background-color: #ce1212;
+  color: beige;
+}
+
+#home .button1:hover {
+  opacity: 0.7;
+}
+
+#home .button2 {
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  max-width: none;
+  min-width: 10px;
+  outline: none;
+  text-align: center;
+  transition-duration: 0.4s;
+  background-color: transparent;
+}
+
+.home-text .material-symbols-outlined {
+  padding: 0px;
+  margin: 0;
+}
+
+#home .button2:hover {
+  color: #ce1212;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #bbbbbb;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(39, 39, 39);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #272727;
+}
+
+.about-text {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(83, 83, 83);
+  margin-bottom: 20px;
+  padding: 0;
+  line-height: 0.6;
+}
+
+.about-text h2 {
+  font-family: "Amatic SC", sans-serif;
+  font-size: 50px;
+  color: rgb(83, 83, 83);
+  margin-top: 0%;
+  font-weight: 300;
+}
+
+.darkmode {
+  font-size: 25px;
+  color: #372f29;
+  transition: all 0.5s;
+}
+.darkmode:hover {
+  color: #f1eb90;
+}
+
+.dark-mode {
+  background-color: #372f29;
+  color: #f3b664;
+  h1 {
+    color: #ec8f5e;
+  }
+  p {
+    color: white;
+  }
+  .btn-info {
+    background-color: #ec8f5e !important;
+    color: white !important;
+  }
+  #first {
+    background-color: #ec8f5e;
+    background-color: #e5e5f7;
+    /* opacity: 0.8; */
+    background-image: radial-gradient(#f3b664 0.5px, #372f29 0.5px);
+  }
+  .home-text {
+    color: #f3b664;
+  }
+  #home h1 {
+    color: #f3b664;
+  }
+  .header {
+    color: #f3b664;
+  }
+  .mainColor {
+    color: #f3b664;
+  }
+  span,
+  a {
+    color: #f3b664;
+  }
+
+  a:hover {
+    color: #f1eb90;
+  }
+  .active {
+    color: #f3b664 !important;
+  }
+}
+#about .inner i {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #372f29;
+  color: #372f29;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 0.4s;
+}
+
+#about ul {
+  padding: 0px !important;
+}
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+}
+#about .inner ul li i:hover {
+  color: #ce1212;
+  border-color: #ce1212;
+}
+
+footer {
+  background-color: #372f29;
+  color: #ec8f5e;
+  a {
+    color: #ec8f5e;
+  }
+  p {
+    color: #ec8f5e;
+  }
+}
+
+.btn-danger {
+  border: #ec8f5e;
+  color: #272727;
+  background-color: #ec8f5e;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.drop-in {
+  animation: drop-in 1s ease 200ms backwards;
+}
+
+.drop-in-2 {
+  animation: drop-in 0.8s ease 0.8ms backwards;
+}
+
+@keyframes drop-in {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}

@@ -1,0 +1,195 @@
+<html>
+  <head>
+    <link rel="shortcut icon" type="image/x-icon" href="img/2794424.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link href="style.css" rel="stylesheet" />
+    <title>food</title>
+  </head>
+  <body>
+    <div id="first">
+      <nav id="navBar" class="navbar navbar-expand-lg px-5 mb-2 py-4">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bolder mainColor" href="#">FOODIES</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars" style="color: #ffffff"></i>
+          </button>
+          <div class="collapse navbar-collapse mx-5" id="navbarNavDropdown">
+            <ul
+              class="navbar-nav ms-auto mb-2 mx-5 px-5 mainColor black"
+              id="myTopnav"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link active mainColor"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#work">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#test">Client</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="mx-5 my-2">
+                <span class="darkmode" onclick="darkMode()"
+                  ><i class="fa-solid fa-moon"></i
+                ></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section id="home">
+        <div class="home-container container pt-2">
+          <div class="row d-flex justify-content-around align-items-center">
+            <div class="col-md-6 home-text">
+              <h1 class="header mb-2 drop-in-2">
+                Enjoy Your Healthy Delicious Food
+              </h1>
+              <p class="drop-in-2">
+                Sed autem laudantium dolores. Voluptatem itaque ea consequatur
+                eveniet. Eum quas beatae cumque eum quaerat.
+              </p>
+              <div class="home-button my-5">
+                <button class="button1 drop-in-2">Book a Table</button>
+                <button class="button2 drop-in-2">
+                  <span
+                    style="font-size: 26spx"
+                    class="material-symbols-outlined drop-in-2"
+                  >
+                    Watch a Video
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="col-md-6 home-pic">
+              <img src="img/hero-img.png" class="w-100 p-5" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section id="about" class="py-5">
+      <div class="container py-5">
+        <div class="row align-items-center">
+          <div class="col-lg-6 px-5 drop-in">
+            <img
+              src="img/food.avif"
+              alt=""
+              class="w-100 shadow-lg border border-1 p-1 rounded-2 img-about"
+            />
+          </div>
+          <div class="col-lg-6 drop-in-2">
+            <div class="inner">
+              <h3 class="text-black">
+                <span class="fw-semibold">About</span> Us
+              </h3>
+              <h4 class="py-2">
+                Hello! <span class="maincolor">Welcome to foodies</span>
+              </h4>
+              <div class="caption text-muted">
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <p>
+                  The point of using Lorem Ipsum is that it has a more-or-less
+                  normal distribution of letters, as opposed to using 'Content
+                  here, content here', making it look like readable English.
+                </p>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, or randomised words which don't look
+                  even slightly believable.
+                </p>
+              </div>
+              <ul class="d-flex gap-3">
+                <li>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-github"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container selects my-5 drop-in">
+      <h1 class="text-center header">Choose a Recipe</h1>
+      <select id="select" class="form-control my-3">
+        <option value="carrot">carrot</option>
+        <option value="broccoli">broccoli</option>
+        <option value="asparagus">asparagus</option>
+        <option value="cauliflower">cauliflower</option>
+        <option value="lettuce">lettuce</option>
+        <option value="peas">peas</option>
+        <option value="pierogi">pierogi</option>
+        <option value="chips">chips</option>
+        <option value="popcorn">popcorn</option>
+        <option value="papaya">papaya</option>
+        <option value="chocolate">chocolate</option>
+        <option value="plum">plum</option>
+        <option value="pizza">pizza</option>
+        <option value="mango">mango</option>
+        <option value="lemon">lemon</option>
+      </select>
+
+      <h3 class="text-center my-4">Recipes List</h3>
+      <div class="row gy-4" id="gallery"></div>
+    </div>
+    <footer>
+      <div class="container p-5 text-center">
+        <h5>Forkify API</h5>
+        <a
+          class="btn btn-danger my-4"
+          target="_blank"
+          href="https://forkify-api.herokuapp.com/"
+          >Link here</a
+        >
+        <p>
+          Copyright 2014 Company name. Designed by Themezy. All rights reserved
+        </p>
+      </div>
+    </footer>
+    <script src="java.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
